@@ -24,24 +24,7 @@ echo "DISTRIB_SOURCECODE='Lienol'" >>package/base-files/files/etc/openwrt_releas
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/haiibo/openwrt-packages package/helloworld
-svn co https://github.com/haiibo/openwrt-packages package/openwrt-passwall
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-adguardhome
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-advanced
-svn co https://github.com/haiibo/openwrt-packages package/luci-theme-argon
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-argon-config
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-bypass
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-filebrowser
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-onliner
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-openclash
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-passwall
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-passwall2
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-ssr-plus
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-store
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-unblockneteasemusic
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-wizard
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-wrtbwmon
-svn co https://github.com/haiibo/openwrt-packages package/luci-app-ikoolproxy
+svn co https://github.com/haiibo/openwrt-packages package/openwrt-packages
 
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
